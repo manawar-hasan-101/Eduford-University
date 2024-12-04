@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page | University</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <script src="https://kit.fontawesome.com/b5ba7dd893.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="/eduford_img/eduford_img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark"  onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">COURSE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-- About us content -->
+
+    <section class="about-us">
+
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world's largest university</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab consequatur fuga, cumque maxime adipisci cupiditate maiores assumenda facere, veniam temporibus minus beatae et. Corrupti cupiditate cumque atque est amet ducimus maxime necessitatibus quo repellendus minus.lor</p>
+          <a href="#" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+          <img src="eduford_img/eduford_img/about.jpg">
+        </div>
+      </div>
+    </section>
+
+      <!-- Footer -->
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto nihil, aut quidem ducimus eligendi neque deleniti, quas sapiente dolore <br> voluptate porro dignissimos libero, illum ut accusamus pariatur distinctio exercitationem.</p>
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa-solid fa-heart"></i> by Munawwar</p>
+       </section>
+  
+  <!-- JavaScript code for toggle menu -->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu() {
+      navLinks.style.left = "0";
+    }
+    function hideMenu() {
+      navLinks.style.left = "-200px";
+    }
+  </script>
+
+
+</body>
+</html>

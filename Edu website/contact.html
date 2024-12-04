@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page | University</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <script src="https://kit.fontawesome.com/b5ba7dd893.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="/eduford_img/eduford_img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark"  onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">COURSE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <!-- Contact us -->
+
+    <section class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30555.463265828337!2d77.29921961597549!3d28.61671162264388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1732951588092!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa-solid fa-house"></i>
+            <span>
+              <h5>Patparh ganj, Ghaziabad</h5>
+              <p>123, Main Road, New Delhi IN</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <span>
+              <h5>+94 112343648</h5>
+              <p>123, Main Road, New Delhi IN</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+              <h5>info@abchundred.com</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="contact-col">
+
+          <form action="">
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter email address" required>
+            <input type="text" placeholder="Enter your subject" required>
+            <textarea rows="8" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+          
+        </div>
+      </div>
+    </section>
+
+      <!-- Footer -->
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto nihil, aut quidem ducimus eligendi neque deleniti, quas sapiente dolore <br> voluptate porro dignissimos libero, illum ut accusamus pariatur distinctio exercitationem.</p>
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa-solid fa-heart"></i> by Munawwar</p>
+       </section>
+  
+  <!-- JavaScript code for toggle menu -->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu() {
+      navLinks.style.left = "0";
+    }
+    function hideMenu() {
+      navLinks.style.left = "-200px";
+    }
+  </script>
+
+
+</body>
+</html>
